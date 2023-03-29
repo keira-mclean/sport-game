@@ -9,6 +9,11 @@
         let addReset = parseInt(resets) +1;
         countOfResets.innerHTML = addReset;
 
+        team1ShotsTaken.innerHTML = 0;
+        team2ShotsTaken.innerHTML = 0;
+        team1Goals.innerHTML = 0;
+        team2Goals.innerHTML = 0;
+
     })
 
     //team one count shots
