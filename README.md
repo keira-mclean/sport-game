@@ -1,5 +1,5 @@
 # sport-game
 
-this will work locally, but the game.js is not laoding in GitHub Pages.
+A simple game where each player takes turns 'shooting' into the net. The goals are random and not skill-based.  
 
-[sport-game](https://keira-mclean.github.io/sport-game/)
+Visit the game at: [sport-game](https://keira-mclean.github.io/sport-game/).
