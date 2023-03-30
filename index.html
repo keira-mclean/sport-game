@@ -8,37 +8,34 @@
 
 <body>
     <div>
-        <h1>My JS Game</h1>
-        <div id="reset-container">
-            <button id="reset-button">RESET</button><br>
-            NUMBER OF RESETS: <span id="num-resets">0</span>
+        <div class="center-ice">
+            <h1>SHOOT OUT</h1>
+            <img src="./assets/images/centerice.png" alt="center ice puck and sticks" />
         </div>
-        <div class="clear"></div>
-        <div class="left">
-            <h2>
-                Team 1
-            </h2>
-            <div class="goals">
-                SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
-                GOALS: <span id="teamone-numgoals">0</span>
-            </div>
-            <div>
+        <div class="grid-container">
+            <div class="left col-4">
+                <img src="./assets/images/teamoneplayer.jpeg" />
                 <button id="teamone-shoot-button">SHOOT</button>
+                <div class="goals">
+                    SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+                    GOALS: <span id="teamone-numgoals">0</span>
+                </div>
             </div>
-        </div>
-        <div class="right">
-            <h2>
-                Team 2
-            </h2>
-            <div class="goals">
-                SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
-                GOALS: <span id="teamtwo-numgoals">0</span>
+            <div id="reset-container" class="col-4">
+                <button id="reset-button">RESET</button><br>
+                NUMBER OF RESETS: <span id="num-resets">0</span>
             </div>
-            <div>
+            <div class="clear"></div>
+            <div class="right col-4">
                 <button id="teamtwo-shoot-button">SHOOT</button>
+                <img src="./assets/images/teamtwoplayer.jpeg" />
+                <div class="goals">
+                    SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+                    GOALS: <span id="teamtwo-numgoals">0</span>
+                </div>
             </div>
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
     </div>
     <script src="../assets/javascript/game.js"></script>
 </body>

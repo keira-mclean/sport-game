@@ -1,3 +1,10 @@
+html, body {
+    background-color: rgb(240, 238, 234);
+    background-image: url('/assets/images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .hide {
     display: none;
 }
@@ -9,11 +16,57 @@
 .right {
     float: right;
 }
+.left > img {
+    width: 200px;
+    height: 150px;
+}
+
+.right > img {
+    width: 200px;
+    height: 150px;
+}
+
+.goals {
+    text-align: center;
+}
 
 .clear {
     clear: both;
 }
+.center-ice {
+    text-align: center;
+}
 
 #reset-container, h1 {
     text-align: center;
+    text-decoration: wavy;
+    padding-top: 100px;
 }
+
+#reset-button, #teamone-shoot-button, #teamtwo-shoot-button {
+    border-radius:50%;
+    height: 50px;
+    border: solid 3px;
+}
+
+#teamone-shoot-button {
+    background-color: #4CAF50;
+    color: white;
+    border-color: blue;
+}
+
+#teamtwo-shoot-button {
+    background-color: #008CBA;
+    color: white;
+    border-color: green;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+  }
