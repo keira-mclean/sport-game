@@ -42,8 +42,6 @@ html, body {
 }
 
 .reset {
-    display: inline-block;
-    padding-right: 110px;
     text-align: center;
 }
 
@@ -67,7 +65,7 @@ html, body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 10px;
   }
