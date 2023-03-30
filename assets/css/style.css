@@ -37,10 +37,14 @@ html, body {
     text-align: center;
 }
 
-#reset-container, h1 {
+#reset-container{
     text-align: center;
-    text-decoration: wavy;
-    padding-top: 100px;
+}
+
+.reset {
+    display: inline-block;
+    padding-right: 110px;
+    text-align: center;
 }
 
 #reset-button, #teamone-shoot-button, #teamtwo-shoot-button {
@@ -65,8 +69,10 @@ html, body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
+    padding: 10px;
   }
   
   .grid-container > div {
     text-align: center;
+    padding: 20px 0;
   }

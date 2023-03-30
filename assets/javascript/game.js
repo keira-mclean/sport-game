@@ -33,7 +33,7 @@
     
     if(Math.floor(Math.random()*3) == team1Score) {
         team1Goals.innerHTML = team1ScoreGoal;
-        alert("Team One SCORE!!!!!");
+        alert("Team Green SCORE!!!!!");
     }
     })
 
@@ -54,7 +54,7 @@
     
     if(Math.floor(Math.random()*3) == team2Score) {
         team2Goals.innerHTML = team2ScoreGoal;
-        alert("Team Two SCORE!!!!!");
+        alert("Team Blue SCORE!!!!!");
     }
     })
    

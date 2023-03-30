@@ -3,7 +3,7 @@
 
 <head>
     <title>JS Game Challenge</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
             <img src="./assets/images/centerice.png" alt="center ice puck and sticks" />
         </div>
         <div class="grid-container">
-            <div class="left col-4">
+            <div class="left">
                 <img src="./assets/images/teamoneplayer.jpeg" />
                 <button id="teamone-shoot-button">SHOOT</button>
                 <div class="goals">
@@ -21,12 +21,12 @@
                     GOALS: <span id="teamone-numgoals">0</span>
                 </div>
             </div>
-            <div id="reset-container" class="col-4">
+            <div id="reset-container" class="reset">
                 <button id="reset-button">RESET</button><br>
-                NUMBER OF RESETS: <span id="num-resets">0</span>
+                COUNT OF RESETS: <span id="num-resets">0</span>
             </div>
             <div class="clear"></div>
-            <div class="right col-4">
+            <div class="right">
                 <button id="teamtwo-shoot-button">SHOOT</button>
                 <img src="./assets/images/teamtwoplayer.jpeg" />
                 <div class="goals">
@@ -37,7 +37,7 @@
             <div class="clear"></div>
         </div>
     </div>
-    <script src="../assets/javascript/game.js"></script>
+    <script src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
